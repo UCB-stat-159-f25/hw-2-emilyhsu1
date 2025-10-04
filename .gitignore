@@ -1,5 +1,4 @@
-cat >> .gitignore <<'EOF'
-
+# Notebook-generated artifacts
 notebook/*.png
 notebook/*.wav
 notebook/*.csv
@@ -7,13 +6,29 @@ notebooks/*.png
 notebooks/*.wav
 notebooks/*.csv
 
-
+# Jupyter checkpoints
 **/.ipynb_checkpoints/
 
+# Python caches
+**/__pycache__/
+*.py[cod]
+*.pyo
 
+# Editor/OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local environments
 env/
 venv/
 .venv/
 .conda/
 .mamba/
 .micromamba/
+.env/
+.envrc
+
