@@ -14,14 +14,6 @@ notebooks/*.csv
 *.py[cod]
 *.pyo
 
-# Editor/OS files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.vscode/
-.idea/
-
 # Local environments
 env/
 venv/
