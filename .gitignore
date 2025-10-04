@@ -1,0 +1,19 @@
+cat >> .gitignore <<'EOF'
+
+notebook/*.png
+notebook/*.wav
+notebook/*.csv
+notebooks/*.png
+notebooks/*.wav
+notebooks/*.csv
+
+
+**/.ipynb_checkpoints/
+
+
+env/
+venv/
+.venv/
+.conda/
+.mamba/
+.micromamba/
